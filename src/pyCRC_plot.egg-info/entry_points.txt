@@ -1,2 +1,0 @@
-[console_scripts]
-pyCRC_plot = pyCRC_plot.run:pyCRC_plot
