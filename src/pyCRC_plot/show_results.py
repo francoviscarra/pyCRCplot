@@ -1,6 +1,9 @@
 import tkinter as tk
 import tksheet
 import numpy as np
+from tkinter import filedialog
+from os.path import normpath
+import csv
 
 
 class run(tk.Tk):
@@ -27,6 +30,7 @@ class run(tk.Tk):
 		self.mainloop()
 
 	def save_sheet(self):
+		print(self.sheet.get_sheet_data(get_header = True, get_index = False))
 		filepath = filedialog.asksaveasfilename(parent = self,
 												title = "Save sheet as",
 												filetypes = [('CSV File','.csv'),
@@ -36,10 +40,11 @@ class run(tk.Tk):
 		if not filepath or not filepath.lower().endswith((".csv", ".tsv")):
 			return
 		try:
+			print("writing")
 			with open(normpath(filepath), "w", newline = "", encoding = "utf-8") as fh:
 				writer = csv.writer(fh,
 									dialect = csv.excel if filepath.lower().endswith(".csv") else csv.excel_tab,
 									lineterminator = "\n")
-				writer.writerows(self.sheet.get_sheet_data(get_header = False, get_index = False))
+				writer.writerows(self.sheet.get_sheet_data(get_header = True, get_index = False))
 		except:
 			return

@@ -1,5 +1,6 @@
 from gui import *
 
-app = main_window()
-app.mainloop()
+def pyCRC_plot():
+	app = main_window()
+	app.mainloop()
 
