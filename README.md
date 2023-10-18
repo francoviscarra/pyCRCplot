@@ -4,7 +4,7 @@ A simple GUI tool to fit concentration response curves to the hill equation, cal
 
 ### Installation
 ```
-pip install -i https://test.pypi.org/simple/ pyCRC-plot
+pip install pyCRC-plot
 ```
 ### Usage
 To use it just run:
