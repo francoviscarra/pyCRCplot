@@ -49,13 +49,13 @@ def fit_hill(x, ydata): #, label, title):
     ec50s.append(ec50_opt)
 
   results = [top_opt, bot_opt, np.mean(ec50s), np.std(ec50s), 10**np.mean(ec50s) , 10**np.std(ec50s), len(ec50s)]
-  print(f"EC50 = {np.mean(ec50s)} +- {np.std(ec50s)}, N = {len(ec50s)}\n")
-  print(f"Bottom = {bot_opt}, Top = {top_opt}")
+  #print(f"EC50 = {np.mean(ec50s)} +- {np.std(ec50s)}, N = {len(ec50s)}\n")
+  #print(f"Bottom = {bot_opt}, Top = {top_opt}")
 
   mean_data = np.mean(ydata, axis=1)
   std_data = np.std(ydata, axis=1)
   mean_curve = np.mean(fit_curve, axis=0)
-  print(mean_curve)
+
   std_curve = np.std(fit_curve, axis=0)
   #popt, pcov = curve_fit(
   #f=hill_eq,       # model function

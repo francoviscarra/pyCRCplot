@@ -1,4 +1,4 @@
-from gui import *
+from pyCRC_plot.gui import *
 
 def pyCRC_plot():
 	app = main_window()

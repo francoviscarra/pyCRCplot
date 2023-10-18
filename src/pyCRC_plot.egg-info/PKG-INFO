@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: pyCRC-plot
-Version: 0.0.3
+Version: 0.0.4
 Summary: Concentration response curve fitting and plotting written in python
 Author-email: Franco Viscarra <franco.viscarra@bioch.ox.ac.uk>
 License:                     GNU GENERAL PUBLIC LICENSE

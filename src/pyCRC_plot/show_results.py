@@ -30,7 +30,7 @@ class run(tk.Tk):
 		self.mainloop()
 
 	def save_sheet(self):
-		print(self.sheet.get_sheet_data(get_header = True, get_index = False))
+		#print(self.sheet.get_sheet_data(get_header = True, get_index = False))
 		filepath = filedialog.asksaveasfilename(parent = self,
 												title = "Save sheet as",
 												filetypes = [('CSV File','.csv'),

@@ -7,9 +7,9 @@ import io
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-import CRC
+import pyCRC_plot.CRC
 import os
-import show_results
+import pyCRC_plot.show_results
 import matplotlib
 matplotlib.use("TkAgg")
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
