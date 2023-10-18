@@ -5,3 +5,7 @@ To install run:
 ```
 pip install -i https://test.pypi.org/simple/ pyCRC-plot
 ```
+To use it run in a terminal:
+```
+pyCRC_plot
+```
