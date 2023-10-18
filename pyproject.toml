@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pyCRC_plot"
-version = "0.0.2"
+dynamic = ["version"]
 authors = [
   { name="Franco Viscarra", email="franco.viscarra@bioch.ox.ac.uk" },
 ]
