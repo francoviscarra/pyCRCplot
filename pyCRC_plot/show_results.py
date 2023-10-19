@@ -9,7 +9,7 @@ import csv
 class run(tk.Tk):
 	def __init__(self, labels, resultlist):
 		tk.Tk.__init__(self)
-		column_1 = ["Top", "Bottom", "log EC50", "St. dev. log EC50", "EC50 (M)" , "St. dev. log EC50 (M)", "N"]
+		column_1 = ["Top", "Bottom", "log EC50", "St. err. log EC50", "EC50 (M)" , "St. err. log EC50 (M)", "N"]
 		data = np.c_[column_1, resultlist]
 		#top = tk.Tk()
 		self.title("Reults")
