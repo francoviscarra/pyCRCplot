@@ -22,8 +22,8 @@ classifiers = [
     "Topic :: Scientific/Engineering"
 ]
 
-[project.scripts]
-pyCRC_plot = "pyCRC_plot.run:pyCRC_plot"
+[project.gui-scripts]
+pyCRC_plot = "pyCRC_plot:run_app"
 
 [project.urls]
 "Homepage" = "https://github.com/francoviscarra/pycrcplot"

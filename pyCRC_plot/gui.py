@@ -14,7 +14,6 @@ import matplotlib
 matplotlib.use("TkAgg")
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
-from matplotlib.widgets import Slider
 
 color_cycle = ["k", "r", "b", "g", "o", "p"]
 
@@ -54,6 +53,8 @@ class main_window(tk.Tk):
         self.sheet.grid(row = 1, column = 0, sticky = "nswe", columnspan=15)
         self.sheet.popup_menu_add_command("Open csv", self.open_csv)
         self.sheet.popup_menu_add_command("Save sheet", self.save_sheet)
+        self.sheet.popup_menu_add_command("Add to plot", self.add_crc2)
+
         #self.sheet.set_all_cell_sizes_to_text()
         self.sheet.set_options(auto_resize_columns=60)
         self.sheet.change_theme("light green")
@@ -314,7 +315,11 @@ class main_window(tk.Tk):
         self.datalist.append(df)
         self.labellist.append(label)
         curves_text = tk.Label(self.canvas1, text=f'Curves added: {len(self.datalist)}')
-        curves_text.grid(row = 0, column = 4, sticky = "nswe",pady = 2, columnspan = 1)   
+        curves_text.grid(row = 0, column = 4, sticky = "nswe",pady = 2, columnspan = 1)
+
+        def add_crc2(self):
+            currently_selected = self.sheet.get_currently_selected()
+            print(currently_selected)
 
 
 
