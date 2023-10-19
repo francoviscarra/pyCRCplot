@@ -2,6 +2,7 @@
 import pandas as pd
 import numpy as np
 
+
 # first part with least squares
 from scipy.optimize import curve_fit
 
@@ -58,10 +59,10 @@ def fit_hill(x, ydata): #, label, title):
   #print(f"Bottom = {bot_opt}, Top = {top_opt}")
 
   mean_data = np.mean(ydata, axis=1)
-  sterr_data = np.std(ydata, axis=1)/np.sqrt(ma.size(ydata, axis=1))
+  sterr_data = np.std(ydata, axis=1)/np.sqrt(np.ma.size(ydata, axis=1))
   mean_curve = np.mean(fit_curve, axis=0)
 
-  CI_curve = np.std(fit_curve, axis=0)/np.sqrt(ma.size(fit_curve, axis=0)) * 1.96
+  CI_curve = np.std(fit_curve, axis=0)/np.sqrt(np.ma.size(fit_curve, axis=0)) * 1.96
   #popt, pcov = curve_fit(
   #f=hill_eq,       # model function
   #xdata=x,   # x data
