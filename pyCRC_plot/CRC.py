@@ -48,7 +48,12 @@ def fit_hill(x, ydata): #, label, title):
     fit_curve.append(fitted)
     ec50s.append(ec50_opt)
 
-  results = [top_opt, bot_opt, np.mean(ec50s), np.std(ec50s)/np.sqrt(len(ec50s)), 10**np.mean(ec50s) , np.std(10**ec50s)/np.sqrt(len(ec50s)), len(ec50s)]
+  results = [top_opt, bot_opt, 
+             np.mean(ec50s), 
+             np.std(ec50s)/np.sqrt(len(ec50s)), 
+             10**np.mean(ec50s) , 
+             np.std([10**e for e in ec50s])/np.sqrt(len(ec50s)), 
+             len(ec50s)]
   #print(f"EC50 = {np.mean(ec50s)} +- {np.std(ec50s)}, N = {len(ec50s)}\n")
   #print(f"Bottom = {bot_opt}, Top = {top_opt}")
 
