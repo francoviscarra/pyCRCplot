@@ -56,7 +56,7 @@ def fit_hill(x, ydata): #, label, title):
   sterr_data = np.std(ydata, axis=1)/np.sqrt(ma.size(ydata, axis=1))
   mean_curve = np.mean(fit_curve, axis=0)
 
-  95int_curve = np.std(fit_curve, axis=0)/np.sqrt(ma.size(fit_curve, axis=0)) * 1.96
+  CI_curve = np.std(fit_curve, axis=0)/np.sqrt(ma.size(fit_curve, axis=0)) * 1.96
   #popt, pcov = curve_fit(
   #f=hill_eq,       # model function
   #xdata=x,   # x data
@@ -66,5 +66,5 @@ def fit_hill(x, ydata): #, label, title):
   #bot_opt_mean, top_opt_mean, ec50_opt_mean = popt
   #X = np.linspace(np.min(x),np.max(x), 100)
   #fitted = hill_eq(X, bot_opt_mean, top_opt_mean, ec50_opt_mean)
-  return (X, mean_curve, sterr_curve, mean_data, 95int_data, results)
+  return (X, mean_curve, CI_curve, mean_data, sterr_data, results)
 
