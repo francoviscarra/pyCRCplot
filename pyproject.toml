@@ -22,7 +22,7 @@ classifiers = [
     "Topic :: Scientific/Engineering"
 ]
 
-[project.gui-scripts]
+[project.scripts]
 pyCRC_plot = "pyCRC_plot:run_app"
 
 [project.urls]
