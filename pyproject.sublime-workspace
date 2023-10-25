@@ -1,0 +1,492 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"res",
+				"reslist"
+			],
+			[
+				"me",
+				"mean_curve"
+			],
+			[
+				"st",
+				"std_curve"
+			],
+			[
+				"mean",
+				"mean_curve"
+			],
+			[
+				"fi",
+				"fit_curve"
+			],
+			[
+				"pl",
+				"plot_options"
+			],
+			[
+				"re",
+				"resultlist"
+			],
+			[
+				"la",
+				"labellist"
+			],
+			[
+				"ec",
+				"ec50s"
+			],
+			[
+				"add",
+				"add_crc"
+			],
+			[
+				"da",
+				"datalist"
+			],
+			[
+				"en",
+				"entry2"
+			],
+			[
+				"col",
+				"color_cycle"
+			],
+			[
+				"rese",
+				"reset_list"
+			],
+			[
+				"dat",
+				"datalist"
+			],
+			[
+				"he",
+				"head_list"
+			],
+			[
+				"se",
+				"select_entry1"
+			],
+			[
+				"sele",
+				"select_entry2"
+			],
+			[
+				"sel",
+				"select_label"
+			],
+			[
+				"plo",
+				"plot_options"
+			],
+			[
+				"new_",
+				"new_occ"
+			],
+			[
+				"dih",
+				"dih0"
+			],
+			[
+				"c",
+				"cluster_0"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"dbsca",
+				"dbscan"
+			],
+			[
+				"xv",
+				"xvg"
+			],
+			[
+				"rm",
+				"rmsf_arr"
+			],
+			[
+				"color",
+				"colors"
+			],
+			[
+				"lig",
+				"ligand_ref"
+			],
+			[
+				"rms",
+				"rsmd_arr"
+			],
+			[
+				"Clu",
+				"Cluster_0"
+			],
+			[
+				"prote",
+				"system_protein"
+			],
+			[
+				"p",
+				"protein"
+			],
+			[
+				"dr",
+				"dRMS_list"
+			],
+			[
+				"pr",
+				"protein"
+			],
+			[
+				"li",
+				"lig_avg"
+			],
+			[
+				"fill",
+				"fill_cluster"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/franco/pyCRC_plot/src/pyCRC_plot/CRC.py",
+		"/home/franco/pyCRC_plot/src/pyCRC_plot/gui.py",
+		"/home/franco/pyCRC_plot/src/pyCRC_plot/__init__.py",
+		"/home/franco/pyCRC_plot/src/pyCRC_plot/run.py",
+		"/home/franco/pyCRC_plot/src/pyCRC_plot/show_results.py",
+		"/home/franco/pyCRC_plot/CRC.py",
+		"/home/franco/pyCRC_plot/gui.py",
+		"/home/franco/pyCRC_plot/run.py",
+		"/home/franco/pyCRC_plot/show_results.py",
+		"/home/franco/brahma/soma/a7/hibbs/open/equil.sh",
+		"/home/franco/brahma/soma/a7/hibbs/open/submit.sh",
+		"/home/franco/brahma/archer2/MD/a7/EQ/submit.sh",
+		"/home/franco/brahma/archer2/MD/a7/EQ/equil.sh",
+		"/home/franco/code/show_results.py",
+		"/home/franco/code/gui.py",
+		"/home/franco/code/CRC.py",
+		"/home/franco/code/run.py",
+		"/home/franco/code/show_data.py",
+		"/home/franco/brahma/archer2/MD/a7/PNU/open/submit.sh",
+		"/home/franco/brahma/a7/capped_boxes/param.sh",
+		"/home/franco/brahma/soma/a4b2/APO/new_US/submit.sh",
+		"/home/franco/brahma/archer2/MD/a7/PNU/open/equil.sh",
+		"/home/franco/brahma_hd/a7_allosteric/pathCV/awk.sh",
+		"/home/franco/brahma/a4a4_allosterics/Docking/gen_ligand.py",
+		"/home/franco/brahma/amela5/md/REST_APO/awk.sh",
+		"/home/franco/brahma/amela5/md/REST_APO/submit.sh",
+		"/home/franco/brahma/a7/capped_boxes/open/equil.sh",
+		"/home/franco/brahma/archer2/MD/amela5/REST_APO/submit.sh",
+		"/home/franco/brahma/archer2/MD/amela5/APO/submit.sh",
+		"/home/franco/brahma/toarcher.sh",
+		"/home/franco/brahma/a7/capped_boxes/open/submit.sh",
+		"/home/franco/brahma/amela5/md/REST_P_ACh/submit.sh",
+		"/home/franco/brahma/soma/a4b2/REST_NS/analysis/unbiased/contacts.sh",
+		"/home/franco/brahma/soma/a7/PNU/open/submit.sh",
+		"/home/franco/brahma/soma/a4b2/b2a4/REST_NS/submit.sh",
+		"/home/franco/brahma/soma/a4b2/b2a4/REST_NS/awk.sh",
+		"/home/franco/brahma/soma/a7/PNU/open/equil.sh",
+		"/home/franco/brahma/soma/a7/PNU/open/setup.sh",
+		"/home/franco/brahma/soma/a4b2/APO/run_wham.sh",
+		"/home/franco/brahma/soma/a4b2/contacts.py",
+		"/home/franco/brahma/soma/a4b2/b2a4/REST_NS/equilibration/submit.sh",
+		"/home/franco/brahma/soma/amela5/REST_ACh/analysis/fep/convert.py",
+		"/home/franco/brahma/soma/amela5/REST_ACh/dihedrals.py",
+		"/home/franco/brahma/soma/amela5/REST_ACh/analysis/drms/make_ref.pdb",
+		"/home/franco/brahma/soma/amela5/contacts2.py",
+		"/home/franco/brahma/soma/amela5/REST_ACh/pca/analyze_pca.py",
+		"/home/franco/brahma/soma/amela5/REST_ACh/pca/perform_pca.py",
+		"/home/franco/brahma/soma/amela5/REST_a7/analysis/fep/submit.sh",
+		"/home/franco/brahma/soma/amela5/REST_ACh/analysis/fep/run_nwat.sh",
+		"/home/franco/brahma/testbench/perform_tica.py",
+		"/home/franco/soma/a4b2/REST_AR27/analysis/unbiased/rmsd.py",
+		"/home/franco/soma/a4b2/REST_NS/contacts.py",
+		"/home/franco/brahma_hd/a7_allosteric/pathCV/make_ref_path.sh",
+		"/home/franco/brahma/soma/a4b2/REST_AR18/awk.sh",
+		"/home/franco/brahma/a7_worm/anabaseine/qm/input.dat",
+		"/home/franco/brahma/soma/a7/open2/simon_box/plot.py",
+		"/home/franco/brahma/soma/amela5/plot_dist.py",
+		"/home/franco/brahma/testbench/run.sh",
+		"/home/franco/brahma/soma/a7/open2/rmsd_restraint2/submit.sh",
+		"/home/franco/brahma/soma/a4b2/REST_2/analysis/unbiased/submit.sh",
+		"/home/franco/brahma/soma/amela5/REST_PP_DPM/cluster/cluster.sh",
+		"/home/franco/brahma/soma/amela5/dist.py",
+		"/home/franco/brahma/soma/amela5/kde2d.py",
+		"/home/franco/brahma/code/mmbar/MBAR3.py",
+		"/home/franco/brahma/soma/amela5/REST_PP_DPM/gmx_dist_rep.sh",
+		"/home/franco/brahma/soma/amela5/extract_basin.py",
+		"/home/franco/brahma/axon/md/bpmetad/open2/EQ04/submit.sh",
+		"/home/franco/brahma/soma/amela5/REST_DPM/convergence.py",
+		"/home/franco/brahma/soma/amela5/REST_DPM/detect_eq.py",
+		"/home/franco/Desktop/bench/run.sh",
+		"/home/franco/brahma/axon/md/bpmetad/open2/EQ04/setup.sh",
+		"/home/franco/brahma/axon/md/a7b2_ACh/submit.sh",
+		"/home/franco/brahma/code/mmbar/MBAR_conv.sh",
+		"/home/franco/brahma/soma/amela5/REST_DPM/plot_dist_rep.py",
+		"/home/franco/brahma/code/mmbar/prepare_files.py",
+		"/home/franco/brahma/soma/amela5/REST_DPM/cluster/cluster.sh",
+		"/home/franco/brahma/soma/amela5/rmsd_analysis.py",
+		"/home/franco/brahma/soma/amela5/rmsd_matrix.py",
+		"/home/franco/brahma/soma/amela5/kde.py",
+		"/home/franco/brahma/axon/md/bpmetad/open2/diffdock/submit.sh",
+		"/home/franco/brahma/axon/md/bpmetad/open2/diffdock/submit_metaD.sh",
+		"/home/franco/brahma/soma/amela5/REST_DPM/gmx_dist_rep.sh",
+		"/home/franco/brahma/soma/amela5/REST_DPN/cluster/cluster.sh",
+		"/home/franco/Downloads/job.sh",
+		"/home/franco/brahma/soma/amela5/REST_DPN/plot.py",
+		"/home/franco/.cache/.fr-Km1Gvq/InputFiles_ABFE_GMX2016/complex/run.sh",
+		"/home/franco/brahma/soma/amela5/RMSF.py",
+		"/home/franco/brahma/axon/md/FEP/convergence.py",
+		"/home/franco/brahma/axon/md/FEP/amela5_ACh/setup.sh",
+		"/home/franco/brahma/axon/md/FEP/amela5_ACh/run.sh",
+		"/home/franco/brahma/axon/md/FEP/submit_rstr.sh",
+		"/home/franco/brahma/axon/md/FEP/submit_vdw.sh",
+		"/home/franco/brahma/axon/md/FEP/submit_coul.sh",
+		"/home/franco/brahma/soma/amela5/REST_ACh/fep/clean.sh",
+		"/home/franco/brahma/soma/amela5/RMSF_compare.py",
+		"/home/franco/brahma/soma/amela5/REST_ACh/cluster/cluster.sh",
+		"/home/franco/brahma/axon/md/FEP/amela5_DPM/run.sh",
+		"/home/franco/brahma/axon/md/FEP/complex_analysis.py",
+		"/home/franco/.config/sublime-text/Packages/User/newPython3.sublime-build",
+		"/home/franco/brahma/soma/amela5/REST_PP_DPM/fep/RMSF.py",
+		"/home/franco/brahma/code/mmbar/MBAR.py",
+		"/home/franco/brahma/code/mmbar/MBAR_1d.py",
+		"/home/franco/brahma_hd/a4b2/funmetaD_hisD/fes/minimum.py",
+		"/home/franco/brahma/code/mmbar/permute_energy.py",
+		"/home/franco/brahma/soma/amela5/REST_5HT/pbsa/run.sh",
+		"/home/franco/brahma/soma/amela5/REST_DPN/permute_replicas.py",
+		"/home/franco/brahma/soma/amela5/REST_ACh/RMSF.py",
+		"/home/franco/brahma/soma/amela5/REST_DPN/rmsd_analysis.py",
+		"/home/franco/brahma/soma/amela5/REST_5HT/rmsd_analysis.py",
+		"/home/franco/brahma/soma/amela5/REST_ACh/rmsd_analysis.py",
+		"/home/franco/brahma_hd/amela5/REST_a7/submit.sh",
+		"/home/franco/brahma/soma/amela5/REST_a7/submit.sh",
+		"/home/franco/brahma/code/mmbar/plot.py",
+		"/home/franco/brahma_hd/amela5/REST_a7/awk.sh",
+		"/home/franco/brahma_hd/amela5/REST_a7/equilibration/submit.sh",
+		"/home/franco/brahma_hd/amela5/REST_5HT/pbsa/run.sh",
+		"/home/franco/brahma/code/BBPMetaD_Analysis/posescore2.py",
+		"/home/franco/brahma/soma/amela5/REST_5HT/pbsa/submit.sh",
+		"/home/franco/brahma/archer2/REST_5HT/submit.sh",
+		"/home/franco/brahma/archer2/bpmetad/setup.sh",
+		"/home/franco/brahma/archer2/REST_a7/submit.sh",
+		"/home/franco/brahma_hd/amela5/REST_ACh/rmsd_analysis.py",
+		"/home/franco/soma/amela5/REST_ACh/mmpbsa/clean.sh",
+		"/home/franco/brahma/code/BBPMetaD_Analysis/clean.sh",
+		"/home/franco/brahma/code/PTWHAM/prepare_files.py",
+		"/home/franco/brahma/code/BBPMetaD_Analysis/fit.sh",
+		"/home/franco/brahma/code/BBPMetaD_Analysis/posescore.py",
+		"/home/franco/soma/a4b2/REST/cluster/cluster.sh"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"print",
+			"rezi",
+			"R",
+			"r",
+			"resname",
+			"drms_max",
+			"drms_min",
+			"cha",
+			"char",
+			"CHARGE_CORR",
+			"$i",
+			"${c}",
+			"$path/",
+			"ligand",
+			"protein",
+			"gmx_mpi",
+			"funnel.tpr",
+			".xtc",
+			"/biggin/b196/scro4068/soma/amela5/REST/PTWHAM/",
+			"a4b2",
+			"/biggin/b196/scro4068/soma/a4b2/REST",
+			"/biggin/b196/scro4068/soma/a4b2/REST/",
+			"funnel",
+			"gmx_mpi",
+			"64452-64494",
+			"64408-64451",
+			"64366-64408",
+			"64323-64365"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"dist_max",
+			"dist_min",
+			"${OPTARGB}",
+			"${OPTARGC}",
+			"$path/Cluster_${c}/",
+			"$path/Cluster_${c}",
+			"protein",
+			"ligand",
+			"gmx",
+			"md.tpr",
+			".gro",
+			"${path}/",
+			"/home/franco/soma/amela5/REST/PTWHAM/",
+			"amela5",
+			"{path}",
+			"/biggin/b196/scro4068/soma/a4b2/REST_2/",
+			"md",
+			"gmx",
+			"64840-64883",
+			"64796-64839",
+			"64752-64795",
+			"64708-64751"
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/newPython3.sublime-build",
+	"project": "pyproject.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -24,8 +24,8 @@ def fit_individual(x,ydata):
   xdata=x,   # x data
   ydata=ydata,   # y data
   p0=(0, 1, -6),      # initial value of the parameters
-  maxfev=5000,
-  nan_policy="omit")
+  maxfev=5000,)
+#  nan_policy="omit")
   bot_opt, top_opt, ec50_opt = popt
   results = [top_opt, bot_opt, ec50_opt, "-", 10**ec50_opt , "-", "1"]
   X = np.linspace(np.min(x),np.max(x), 100)
@@ -43,8 +43,8 @@ def fit_hill(x, ydata): #, label, title):
     xdata=x,   # x data
     ydata=column,   # y data
     p0=(0, 1, -6),      # initial value of the parameters
-    maxfev=5000,
-    nan_policy="omit")
+    maxfev=5000,)
+#    nan_policy="omit")
     bot_opt, top_opt, ec50_opt = popt
     X = np.linspace(np.min(x),np.max(x), 100)
     fitted = hill_eq(X, bot_opt, top_opt, ec50_opt)

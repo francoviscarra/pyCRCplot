@@ -189,8 +189,8 @@ class main_window(tk.Tk):
 
     def plot_crc(self):
         #        df = self.clean_data()
-        if len(self.datalist) == 0:
-            self.add_crc()
+        #if len(self.datalist) == 0:
+        #    self.add_crc()
         title = self.entry1.get()
         data = self.sheet.get_sheet_data(get_header=False, get_index=False)
         x = pd.DataFrame(data)
@@ -212,8 +212,11 @@ class main_window(tk.Tk):
                 df = df.loc[:, df.columns != 'X']
                 df.insert(0, column="X", value=x)
             df = df.astype("float")
+            df = df.dropna(how='all')
+            df = df.dropna(how='all', axis=1)
             x = df["X"]
             df = df.loc[:, df.columns != 'X']
+
             X, mean_curve, std_curve, mean_data, std_data, results = CRC.fit_hill(x, df)  # , label, title)
             resultlist.append(results)
 
@@ -253,8 +256,8 @@ class main_window(tk.Tk):
     def reset_list(self):
         self.datalist = []
         self.labellist = []
-        curves_text = tk.Label(self.canvas1, text=f'Curves added: {len(self.datalist)}')
-        curves_text.grid(row=0, column=4, sticky="nswe", pady=2, columnspan=1)
+        #curves_text = tk.Label(self.canvas1, text=f'Curves added: {len(self.datalist)}')
+        #curves_text.grid(row=0, column=4, sticky="nswe", pady=2, columnspan=1)
 
     def add_crc(self):
         heads = self.head_list
