@@ -8,7 +8,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "pyCRC_plot"
 #dynamic = ["version"]
-version = "0.1.3"
+version = "0.1.4"
 authors = [
   { name="Franco Viscarra", email="franco.viscarra@bioch.ox.ac.uk" },
 ]

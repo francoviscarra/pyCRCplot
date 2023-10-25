@@ -20,8 +20,6 @@ color_cycle = ["k", "r", "b", "g"] * 2
 marker_cycle = ["o", "s", "v", "^"] * 2
 fill_cycle = ["full"]*4 + ["none"]*4
 
-print(fill_cycle)
-
 class main_window(tk.Tk):
     def __init__(self):
         tk.Tk.__init__(self)
@@ -211,9 +209,12 @@ class main_window(tk.Tk):
             except:
                 df = df.loc[:, df.columns != 'X']
                 df.insert(0, column="X", value=x)
-            df = df.astype("float")
+            df.replace('', np.nan, inplace=True)
+            
             df = df.dropna(how='all')
             df = df.dropna(how='all', axis=1)
+            df = df.astype("float")
+            print(df)
             x = df["X"]
             df = df.loc[:, df.columns != 'X']
 

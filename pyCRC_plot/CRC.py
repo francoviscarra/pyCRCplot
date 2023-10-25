@@ -19,10 +19,11 @@ def hill_eq(x,bot,top, ec50, hs=1):
   
 
 def fit_individual(x,ydata):
+  valid = ~(np.isnan(x) | np.isnan(ydata))
   popt, pcov = curve_fit(
   f=hill_eq,       # model function
-  xdata=x,   # x data
-  ydata=ydata,   # y data
+  xdata=x[valid],   # x data
+  ydata=ydata[valid],   # y data
   p0=(0, 1, -6),      # initial value of the parameters
   maxfev=5000,)
 #  nan_policy="omit")
@@ -38,10 +39,11 @@ def fit_hill(x, ydata): #, label, title):
   fit_curve = []
   for cname in ydata:
     column = ydata[cname]
+    valid = ~(np.isnan(x) | np.isnan(column))
     popt, pcov = curve_fit(
     f=hill_eq,       # model function
-    xdata=x,   # x data
-    ydata=column,   # y data
+    xdata=x[valid],   # x data
+    ydata=column[valid],   # y data
     p0=(0, 1, -6),      # initial value of the parameters
     maxfev=5000,)
 #    nan_policy="omit")
